@@ -1,7 +1,7 @@
 local v14 = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
 local v15= v14:CreateWindow({
     Title = "YTB: MinhLocNhe",
-    SubTitle = "Beta Version",
+    SubTitle = "",
     TabWidth = 160,
     Size = UDim2.fromOffset(530, 350),
     Acrylic = true,
