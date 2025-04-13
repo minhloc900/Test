@@ -1,1 +1,31 @@
+local v14 = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
+local v15= v14:CreateWindow({
+    Title = "YTB: MinhLocNhe",
+    SubTitle = "Beta Version",
+    TabWidth = 160,
+    Size = UDim2.fromOffset(530, 350),
+    Acrylic = true,
+    Theme = "Rose",
+    MinimizeKey = Enum.KeyCode.End
+})
+local Tabs = {
+    Main = v15:AddTab({ Title = "Cày", Icon = "" }),
+    Stats = v15:AddTab({ Title = "chỉ số", Icon = "" }),
+    Player = v15:AddTab({ Title = "Người chơi", Icon = "" }),
+    Teleport = v15:AddTab({ Title = "Đảo", Icon = "" }),
+    Fruit = v15:AddTab({ Title = "Trái", Icon = "" }),
+    Raid = v15:AddTab({ Title = "Raid", Icon = "" }),
+    Race = v15:AddTab({ Title = "Tộc V4", Icon = "" }),
+    Shop = v15:AddTab({ Title = "Shop", Icon = "" }),
+    Misc = v15:AddTab({ Title = "Khác", Icon = "" }),
+    Hop =v15:AddTab({ Title = "Hop", Icon = "" }),
+    Setting = v15:AddTab({ Title = "Cài đặt", Icon = "" }),
+}
+local v16 = v14.Options
+local v17 = game.PlaceId
+if v17 == 2753915549 then First_Sea = true;
+ elseif v17 == 4442272183 then Second_Sea = true;
+ elseif v17 == 7449423635 then Third_Sea = true;
+ else game:Shutdown() end;
+
 
